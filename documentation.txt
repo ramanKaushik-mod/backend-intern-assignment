@@ -1,0 +1,47 @@
+What is it?
+A backend assignment for backend developement internship
+
+____________________________________________
+____________________________________________
+
+System: Kali Linux (Distro - XFCE)
+
+Distributor ID: Kali
+Description:    Kali GNU/Linux Rolling
+Release:        2023.2
+
+____________________________________________
+____________________________________________
+
+What this Application do?: 
+A RESTful API for managing tasks using Python and Flask.
+
+Software needed
+1. A Text Editor, I used VS-CODE
+2. Python
+
+____________________________________________
+____________________________________________
+
+Setup Instructions:
+1. Download or Clone the CODE from [https://github.com/ramanKaushik-mod/backend-intern-assignment]
+2. Open the cloned folder [backend-intern-assignment] in Text Editor.
+3. To run the code, follow the (Run Instructions)
+
+
+Run Instructions:
+1. Open the folder containing the [APP]
+
+2. Open a terminal Window and type the command [python app.py], if you want to run the app as python script.
+
+   or if you want to run the app as flask Application, follow the below suggestion
+
+   Open a terminal Window and to set the flask environment variable [FLASK_APP] by following command:
+   if on Linux :[export FLASK_APP=app.py]
+   if on Windows :[set FLASK_APP=app.py]
+
+3. This step is optional, to turn the debug mode on, one can set the [FLASK_DEBUG] environment variable:
+   if on Linux :[export FLASK_DEBUG=1]
+   if on Windows :[set FLASK_DEBUG=1]
+
+4. Now just run [flask run] on the terminal and APIs can listen at [Running on http://127.0.0.1:5000]
